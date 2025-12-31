@@ -1,0 +1,6 @@
+# Ignore all files without an extension (common for C executables on macOS/Linux)
+*
+!*.*
+
+# Also ignore standard git files
+.DS_Store
