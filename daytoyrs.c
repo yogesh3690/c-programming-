@@ -14,7 +14,7 @@ int main(){
 	printf("Enter the days to be converted==");
 	scanf("%d",&days);
 	y=days/365;
-	m=(days%365)/12;
-	d=(days%365)%12;
+	m=(days%365)/30;
+	d=(days%365)%30;
 	printf("%d days is %d year %d month and %d days\n",days,y,m,d);
 }
